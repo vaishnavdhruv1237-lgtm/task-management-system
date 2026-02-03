@@ -44,7 +44,7 @@ const Login = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleClick = (e) => {
     e.preventDefault();
 
     if (validate()) {
@@ -65,8 +65,7 @@ const Login = () => {
           alert("Invalid email or password");
         }
       } else {
-        alert("No registered user found. Please register first.");
-        navigate("/register");
+        alert("Something went wrong !");
       }
     }
   };
@@ -75,7 +74,7 @@ const Login = () => {
     <div className="form-container">
       <h1 className="form-title">Welcome back</h1>
 
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleClick}>
         <div className="form-group">
           <label htmlFor="email">Email Address</label>
           <input
