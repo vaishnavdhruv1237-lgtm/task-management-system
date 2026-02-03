@@ -10,8 +10,8 @@ import Register from "./pages/Register.jsx";
 import AuthGuard from "./auth/AuthGuard.jsx";
 
 const DefaultRoute = () => {
-  const authData = JSON.parse(localStorage.getItem("authData"));
-  if (authData) {
+  const loginData = JSON.parse(localStorage.getItem("loginData"));
+  if (loginData) {
     return <Navigate to="/Login" replace />;
   }
   return <Navigate to="/Register" replace />;
