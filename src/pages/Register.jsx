@@ -1,6 +1,6 @@
-import React, { use, useEffect, useState } from "react";
-import "./Register.css";
+import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import "./Register.css";
 
 // state declaration section
 const Register = () => {
@@ -62,8 +62,8 @@ const Register = () => {
     e.preventDefault();
     if (validate()) {
       localStorage.setItem("authData", JSON.stringify(formData));
-      alert("Registration successful...!");
-      navigate("/login");
+      alert("Registration successfull...!");
+      navigate("/Login");
     }
   };
 
