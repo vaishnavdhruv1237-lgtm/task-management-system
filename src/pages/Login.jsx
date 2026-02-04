@@ -58,7 +58,7 @@ const Login = () => {
         alert("invalid email or password");
       }
     } else {
-      alert("Somthing went wrong!");
+      alert("Something went wrong!");
     }
   };
   return (
