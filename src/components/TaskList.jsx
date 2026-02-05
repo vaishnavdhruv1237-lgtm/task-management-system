@@ -11,7 +11,9 @@ const TaskList = ({ tasks }) => {
 
             <div className="task-meta">
               <span>{task.dueDate}</span>
-              <span className="priority-badge priority-high">{task.priority}</span>
+              <span className="priority-badge priority-high">
+                {task.priority}
+              </span>
             </div>
 
             <div className="task-actions">
