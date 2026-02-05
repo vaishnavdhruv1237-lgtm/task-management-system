@@ -1,12 +1,28 @@
 {
-    "tasks": [
-        {
-        "id": "1",
-        "title": "Welcome Task",
-        "description": "This is your task served from json-server",
-        "DueDate": "2025-09-31",
-        "completed": false,
-        "priority": "Medium"
-        }
-    ]
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Welcome Task",
+      "description": "This is your task served from json-server",
+      "dueDate": "2025-10-1",
+      "completed": false,
+      "priority": "Low"
+    },
+    {
+      "id": "2",
+      "title": "Welcome Task 2",
+      "description": "This is your task served from json-server",
+      "dueDate": "2025-10-2",
+      "completed": false,
+      "priority": "Medium"
+    },
+    {
+      "id": "3",
+      "title": "Welcome Task 3",
+      "description": "This is your task served from json-server",
+      "dueDate": "2025-10-3",
+      "completed": false,
+      "priority": "High"
+    }
+  ]
 }
