@@ -4,25 +4,9 @@
       "id": "1",
       "title": "Task 1",
       "description": "This is your task served from json-server",
-      "dueDate": "2026-02-05",
-      "completed": false,
-      "priority": "Low"
-    },
-    {
-      "id": "2",
-      "title": "Task 2",
-      "description": "This is your task served from json-server",
       "dueDate": "2026-02-10",
-      "priority": "Medium",
-      "completed": false
-    },
-    {
-      "id": "3",
-      "title": "Task 3",
-      "description": "This is your task served from json-server",
-      "dueDate": "2026-02-15",
-      "priority": "High",
-      "completed": false
+      "completed": true,
+      "priority": "Low"
     }
   ]
 }
